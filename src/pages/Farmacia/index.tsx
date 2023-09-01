@@ -10,7 +10,7 @@ export default function Farmacia(){
     return <>
     <Image source={topo} style={estilos.topo}></Image>
 
-    <Text style={estilos.titulo}>Itens</Text>
+    <Text style={estilos.titulo}>Detalhe da Compra</Text>
 
     <View style={estilos.farmacia}>
 
@@ -32,9 +32,9 @@ const estilos= StyleSheet.create({
         height: 578/768 * width
     },
     titulo: {
-        fontSize: 24, 
+        fontSize: 22, 
         fontWeight: "bold",
-        lineHeight: 26,
+        lineHeight: 14,
         width: "100%",
         textAlign: "center",
         color: "white",
