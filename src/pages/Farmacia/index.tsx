@@ -52,14 +52,14 @@ const estilos= StyleSheet.create({
         paddingHorizontal: 16
     },
     nomeFarmacia:{
-        fontSize: 16,
+        fontSize: 20,
         lineHeight:26,
         marginLeft: 12,
         fontWeight: "bold"
     },
     imgFarmacia:{
-        width: 32,
-        height: 32
+        width: 120,
+        height: 90
     },
     produto:{
         flexDirection: "row",
