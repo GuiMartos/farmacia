@@ -2,6 +2,8 @@ import React from "react";
 import {Text, Image, View, StyleSheet} from "react-native";
 import p1 from '../../../../assets/p1.png';
 
+
+
 export default function Detalhe(){
     return<>
 <Text style={estilos.titulofarmacia}>Farmacia</Text>
