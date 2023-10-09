@@ -3,18 +3,24 @@ import {Text, Image, View, StyleSheet} from "react-native";
 import p1 from '../../../../assets/p1.png';
 
 
+type Props = {
+    titulofarmacia:string,
+    nomeFramacia:string,
+    descricao:string,
+    preco:string
+}
 
-export default function Detalhe(){
+export default function Detalhe({titulofarmacia, nomeFramacia, descricao, preco}:Props){
     return<>
-<Text style={estilos.titulofarmacia}>Farmacia</Text>
+
+    <Text style={estilos.titulofarmacia}>{titulofarmacia}</Text>
         <View style={estilos.produto}>
             <Image style={estilos.imgFarmacia} source={p1}></Image>
-            <Text style={estilos.nomeFarmacia}>Dorflex - 32 Comprimidos</Text>
+            <Text style={estilos.nomeFarmacia}>{nomeFramacia}</Text>
         </View>
-        <Text style={estilos.descricao}>Age na dor e relaxa, indicado para dores de cabeça
-        e musculares. Pode ser um socorro nos seus dias de luta. 
+        <Text style={estilos.descricao}>{descricao}
         </Text>
-        <Text style={estilos.preco}>R$ 39,90</Text>
+        <Text style={estilos.preco}>{preco}</Text>
     </>
 }
 

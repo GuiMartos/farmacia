@@ -10,3 +10,4 @@ const farmacia = {
 
     }
 }
+export default farmacia;
